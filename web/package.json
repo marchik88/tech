@@ -29,7 +29,7 @@
     "holderjs": "^2.9.7",
     "less": "^3.11.1",
     "localforage": "^1.7.3",
-    "next": "9.1.7",
+    "next": "9.4.4",
     "next-compose-plugins": "^2.2.0",
     "react": "16.12.0",
     "react-codemirror2": "^7.2.1",
