@@ -1,0 +1,6 @@
+{
+  "name": "userProfile",
+  "version": "",
+  "plugins": ["redux", "rematch"],
+  "routes": []
+}

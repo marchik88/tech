@@ -1,0 +1,28 @@
+{
+  "type": "theme|dark",
+  "backgrounds": {
+    "main": "#232323",
+    "card": "#353535",
+    "header": "#2c2c2c",
+    "footer": "#2c2c2c",
+    "input": "#6f6f6f"
+  },
+  "colors": {
+    "main": "#adb7c3",
+    "card": "#8493a5",
+    "header": "#8493a5",
+    "footer": "#8493a5",
+    "langs_toggle": {
+      "dark": "#adb7c3",
+      "light": "#fff"
+    }
+  },
+  "shadows": {
+    "xs": "",
+    "s": "",
+    "m": "",
+    "l": "",
+    "xl": "",
+    "xxl": ""
+  }
+}

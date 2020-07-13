@@ -1,0 +1,47 @@
+.ActionButtonAdd
+  max-width: 50px
+  font-size: 20px
+  background: #dff0d8 !important
+  
+  &:hover
+    background: #49c0b6 !important
+
+.ActionButtonEdit
+  max-width: 50px
+  font-size: 20px
+  background: #c1f1fc !important
+  
+  &:hover
+    background: #61b3de !important
+
+.ActionButtonDelete
+  max-width: 50px
+  font-size: 20px
+  background: #ffaaaa !important
+  
+  &:hover
+    background: #ff2d37 !important
+
+.darkTable
+  $headerFooterBg: #323232
+  $color: #fff
+  
+  background: $headerFooterBg
+  
+  [class="ant-table"]
+    border-color: #353c48
+  
+  [class="ant-table-thead"] > tr > th, tfoot > tr > th, [class="ant-table"] tfoot > tr > td
+    background: $headerFooterBg
+    color: $color
+    
+    &:hover
+      background: #4e4e4e !important
+  
+  [class="ant-table-tbody"] > tr
+    td
+      background: #232323
+      color: $color
+    
+    &:hover > td
+      background: #4e4e4e !important

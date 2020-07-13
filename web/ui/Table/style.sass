@@ -1,0 +1,51 @@
+.Table
+    text-align: center
+    box-shadow: 0 1px 15px rgba(0,0,0,.05), 0 1px 6px rgba(0,0,0,.05)
+    thead
+        @media screen and (max-width: 768px)
+            position: absolute
+            width: auto
+            th
+                width: auto
+                background: #fff
+                tr
+                    position: absolute
+                    background: #fff
+                    z-index: 9
+    tbody
+        @media screen and (max-width: 768px)
+            display: flex
+            // width: 150%
+            min-width: 90vw
+            overflow-x: auto
+            tr
+                width: 100%
+                margin: 0 22vw
+                // td
+                    // min-width: 100%
+    tr
+        @media screen and (max-width: 768px)
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+
+[class="ant-table-title"]
+    padding: 3px 16px
+
+[class="ant-table-row-expand-icon ant-table-row-expand-icon-collapsed"]
+    margin: 0px 20px!important
+[class="ant-table-thead"] > tr > th, [class="ant-table-tbody"] > tr > td, [class="ant-table"] tfoot > tr > th, [class="ant-table"] tfoot > tr > td
+    padding: 8px 6px!important
+    min-width: 60px!important
+    text-align: center
+    max-height: 60px!important
+    font-size: 14px!important
+[class="ant-table-column-sorters"]
+    padding: 0!important
+    margin: 0!important
+    max-height: 60px!important
+    span
+        max-height: 55px!important
+        overflow: hidden
+[class="ant-table-column-sorters ant-tooltip-open"]
+    padding: 0px

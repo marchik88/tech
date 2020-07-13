@@ -1,0 +1,93 @@
+
+.languageToggle
+    position: relative
+    display: -webkit-box
+    display: flex
+    margin: 0px 30px
+    // padding: 10px
+
+    .languageToggleText
+        width: 35px
+        height: 35px
+        line-height: 30px
+        text-align: center
+        color: #000
+
+    .languageToggleText:first-of-type
+        margin-right: 10px
+
+    .languageToggleBlobs
+        position: absolute
+        z-index: -1
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        -webkit-filter: url("#goo")
+        filter: url("#goo")
+
+    .languageToggleBlobs::before, .languageToggleBlobs::after
+        content: ""
+        position: absolute
+        z-index: -1
+        top: 0px
+        left: 2px
+        width: 30px
+        height: 30px
+        border-radius: 100%
+        // background-color: #7b77d2
+        background-color: #7b77d2
+        -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37)
+        transition: -webkit-transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37)
+        transition: transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37)
+        transition: transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37),
+        -webkit-transform 0.2s cubic-bezier(0.51, 0.06, 0.56, 1.37)
+        will-change: transform
+
+    .languageToggleBlobs::before
+        -webkit-transform: scale(0.7)
+        transform: scale(0.7)
+        -webkit-transition-delay: 0.1s
+        transition-delay: 0.1s
+        -webkit-transition-duration: 0.4s
+        transition-duration: 0.4s
+
+    &.changed .languageToggleBlobs::before
+        -webkit-transform: translateX(45px) scale(0.7)
+        transform: translateX(45px) scale(0.7)
+
+    &.changed .languageToggleBlobs::after
+        -webkit-transform: translateX(45px)
+        transform: translateX(45px)
+
+@media only screen and (min-width: 1025px)
+    .languageToggleBlobs::before
+        -webkit-transform: scale(1)
+        transform: scale(1)
+        -webkit-transition-delay: 0s
+        transition-delay: 0s
+        -webkit-transition-duration: 0.2s
+        transition-duration: 0.2s
+
+    .languageToggle:hover
+        cursor: pointer
+
+    .languageToggle:not(.changed) .en:hover ~ .languageToggleBlobs::before
+        -webkit-transform: scale(0.9)
+        transform: scale(0.9)
+
+    .languageToggle:not(.changed) .en:hover ~ .languageToggleBlobs::after
+        -webkit-transform: translateX(45px) scale(0.7)
+        transform: translateX(45px) scale(0.7)
+
+    .languageToggle.changed .languageToggleBlobs::before
+        -webkit-transform: translateX(45px)
+        transform: translateX(45px)
+
+    .languageToggle.changed .pl:hover ~ .languageToggleBlobs::before
+        -webkit-transform: translateX(45px) scale(0.9)
+        transform: translateX(45px) scale(0.9)
+
+    .languageToggle.changed .pl:hover ~ .languageToggleBlobs::after
+        -webkit-transform: scale(0.7)
+        transform: scale(0.7)

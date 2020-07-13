@@ -1,0 +1,136 @@
+{
+  "type": "language|en",
+  "_app": {
+    "home": {
+      "cost": {
+        "1": "Cost: 100 UAH",
+        "2": "Cost: 100 UAH",
+        "3": "Cost: 100 UAH"
+      },
+      "button": {
+        "buy": "Buy",
+        "details": "Get course details",
+        "trial": "Take a trial",
+        "schedule": "Season schedule"
+      }
+    },
+    "sidebar": {
+      "label": {
+        "dashboard": "Profile",
+        "users": "Users",
+        "settings": "Settings"
+      }
+    }
+  },
+  "admin_dashboard": {
+    "main_page": {
+      "title": "Hello",
+      "language": "En",
+      "lightTheme": "Light",
+      "darkTheme": "Dark"
+    }
+  },
+  "admin-users": {
+    "usersTable": {
+      "columns": {
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email",
+        "currentCourse": "Current course",
+        "progressCurrent": "Current progress",
+        "social": "Social",
+        "role": "Role",
+        "online": "Online",
+        "createDate": "Create date",
+        "actions": "Actions"
+      }
+    }
+  },
+  "users": {
+    "sign_up": {
+      "form": {
+        "header": "Sign up",
+        "explanation": "You must to create account in application to unlock courses features",
+        "email": {
+          "label": "Email Adress",
+          "placeholder": "Enter email...",
+          "description": "We will never share your email with anyone else."
+        },
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter first name...",
+          "description": ""
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter last name...",
+          "description": ""
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Password..."
+        },
+        "re-password": {
+          "label": "Re-type Password",
+          "placeholder": "Please type password twice..."
+        },
+        "checkbox": {
+          "label": "I agree with Terms And Conditions"
+        },
+        "create_account": "Create Account",
+        "separator": "- or -",
+        "link_forgot_password": "Forgot Password",
+        "link_sign_in": "Sign In"
+      },
+      "messages": {
+        "no_email": "Enter a email address",
+        "inc_email": "Email entered incorrectly",
+        "no_password": "Enter a password",
+        "no_re_password": "Enter a re-type password",
+        "dont_match_password": "Those passwords don't match, try again",
+        "disagree_terms": "Read and agree with terms and conditions",
+        "error": "Houston, we have a problem!"
+      }
+    },
+    "sign_in": {
+      "form": {
+        "header": "Sign in",
+        "explanation": "You must sign in application to unlock account features",
+        "email": {
+          "label": "Email Adress",
+          "placeholder": "Enter email..."
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Password...",
+          "remember": "Remember Password"
+        },
+        "login": "Go to account",
+        "separator": "- or -",
+        "link_forgot_password": "Forgot Password",
+        "link_sign_up": "Sign Up"
+      }
+    }
+  },
+  "userProfile": {
+    "button": {
+      "discount": "Discount",
+      "progress": "Progress",
+      "toLustTest": "To the lust test",
+      "toFirstLesson": "To the first lesson",
+      "intro": "Intro",
+      "save": "Save",
+      "edit": "Edit",
+      "teacherConnect": "Сontact teacher",
+      "controlPanel": "Control panel"
+    },
+    "input": {
+      "name": "Your name",
+      "last-name": "Your last name ore nickname"
+    },
+    "label": {
+      "firstName": "First Name",
+      "lastName": "Last Name"
+    }
+  }
+}

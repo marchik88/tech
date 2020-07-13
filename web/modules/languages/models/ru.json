@@ -1,0 +1,136 @@
+{
+  "type": "language|ru",
+  "_app": {
+    "home": {
+      "cost": {
+        "1": "Стоимость: 100 грн",
+        "2": "Стоимость: 100 грн",
+        "3": "Стоимость: 100 грн"
+      },
+      "button": {
+        "buy": "Купить",
+        "details": "Получить детали курса",
+        "trial": "Пройти пробный",
+        "schedule": "Расписание сезонов"
+      }
+    },
+    "sidebar": {
+      "label": {
+        "dashboard": "Профиль",
+        "users": "Пользователи",
+        "settings": "Настройки"
+      }
+    }
+  },
+  "admin_dashboard": {
+    "main_page": {
+      "title": "Привет",
+      "language": "Рус",
+      "lightTheme": "Дневная",
+      "darkTheme": "Ночная"
+    }
+  },
+  "admin-users": {
+    "usersTable": {
+      "columns": {
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "email": "Почта",
+        "currentCourse": "Текущий курс",
+        "progressCurrent": "% выполнения",
+        "social": "Соц.сети",
+        "role": "Роль",
+        "online": "Онлайн",
+        "createDate": "Дата регистр.",
+        "actions": "Действия"
+      }
+    }
+  },
+  "users": {
+    "sign_up": {
+      "form": {
+        "header": "Регистрация",
+        "explanation": "Вы должны создать учетную запись в приложении, чтобы разблокировать функции курсов",
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Введите почту...",
+          "description": "Мы не передаем вашу почту третим лицам."
+        },
+        "firstName": {
+          "label": "Имя",
+          "placeholder": "Введите имя...",
+          "description": ""
+        },
+        "lastName": {
+          "label": "Фамилия",
+          "placeholder": "Введите фамилию...",
+          "description": ""
+        },
+        "password": {
+          "label": "Пароль",
+          "placeholder": "Пароль..."
+        },
+        "re-password": {
+          "label": "Повторите пароль",
+          "placeholder": "Пожалуйста, введите пароль ещё раз..."
+        },
+        "checkbox": {
+          "label": "Я согласен с правилами и условиями"
+        },
+        "create_account": "Создать аккаунт",
+        "separator": "- или -",
+        "link_forgot_password": "Забыли пароль?",
+        "link_sign_in": "Войти"
+      },
+      "messages": {
+        "no_email": "Введите адрес почты",
+        "inc_email": "Адрес почты введен некорректно",
+        "no_password": "Введите пароль",
+        "no_re_password": "Введите пароль ещё раз",
+        "dont_match_password": "Пароль не совпадает, попробуйте ещё раз",
+        "disagree_terms": "Прочитайте и согласитесь с условиями",
+        "error": "Хьюстон, у нас проблемы!"
+      }
+    },
+    "sign_in": {
+      "form": {
+        "header": "Вход",
+        "explanation": "Вы должны войти в приложение, чтобы разблокировать функции учетной записи",
+        "email": {
+          "label": "Адрес почты",
+          "placeholder": "Введите почту..."
+        },
+        "password": {
+          "label": "Пароль",
+          "placeholder": "Пароль...",
+          "remember": "Запомнить пароль"
+        },
+        "login": "Войти",
+        "separator": "- или -",
+        "link_forgot_password": "Забыли пароль?",
+        "link_sign_up": "Регистрация"
+      }
+    }
+  },
+  "userProfile": {
+    "button": {
+      "discount": "Скидки",
+      "progress": "Прогресс",
+      "toLustTest": "К последнему тесту",
+      "toFirstLesson": "К первому уроку",
+      "intro": "К интро",
+      "save": "Сохранить",
+      "edit": "Редактировать",
+      "teacherConnect": "Связь с учителем",
+      "controlPanel": "Панель управления"
+    },
+    "input": {
+      "name": "Ваше имя",
+      "last-name": "Ваша фамилия или псевдоним"
+    },
+    "label": {
+      "firstName": "Имя",
+      "lastName": "Фамилия"
+    }
+  }
+}

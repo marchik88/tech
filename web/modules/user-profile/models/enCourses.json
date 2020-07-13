@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "key": "englishBeginner",
+      "tab": "English for beginners",
+      "content": "description about course",
+      "title": "Your first step",
+      "discount": "Information about discount",
+      "plan": "Some plan of course, detail and else information"
+    },
+    {
+      "key": "englishPreIntermediate",
+      "tab": "English for middling",
+      "content": "description about course",
+      "title": "Your second step",
+      "discount": "Information about discount",
+      "plan": "Some plan of course, detail and else information"
+    },
+    {
+      "key": "englishIntermediate",
+      "tab": "English for advanced",
+      "content": "description about course",
+      "title": "Your third step",
+      "discount": "Information about discount",
+      "plan": "Some plan of course, detail and else information"
+    }
+  ]
+}

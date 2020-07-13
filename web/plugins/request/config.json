@@ -1,0 +1,8 @@
+{
+  "name": "request",
+  "version": "0.0.1",
+  "type": "private",
+  "apiURL": "http://localhost:8989",
+  "apiProductionURL": "http://45.129.98.25:8989",
+  "apiVersion": ""
+}

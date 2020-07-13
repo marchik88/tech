@@ -1,0 +1,28 @@
+{
+  "type": "theme|light",
+  "backgrounds": {
+    "main": "#eff3f8",
+    "card": "#f5f9fb",
+    "header": "#fff",
+    "footer": "#fff",
+    "input": "#fff"
+  },
+  "colors": {
+    "main": "#1f283b",
+    "card": "#8493a5",
+    "header": "#555",
+    "footer": "#555",
+    "langs_toggle": {
+      "dark": "#555",
+      "light": "#fff"
+    }
+  },
+  "shadows": {
+    "xs": "",
+    "s": "",
+    "m": "",
+    "l": "",
+    "xl": "",
+    "xxl": ""
+  }
+}

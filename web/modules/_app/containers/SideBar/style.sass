@@ -1,0 +1,59 @@
+.Menu
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 150px
+    padding-top: 100px
+    margin: 0
+    position: fixed
+    top: 0px
+    height: 100vh
+    overflow-x: hidden
+    overflow-y: auto
+    z-index: 99
+    transition: left 0.5s ease
+    @media (max-width: 1400px)
+        width: 120px
+    [class*="anticon-"]
+        font-size: 20px
+    [class="ant-menu-submenu-arrow"]
+        opacity: 0
+    [class="ant-menu-submenu-title"]
+        min-height: 80px
+        font-size: 11px!important
+    .MenuButton
+        width: 120px
+        display: flex
+        flex-direction: column
+        // justify-content: center
+        align-items: center
+        transition: color 0.5s ease
+        &:hover
+            color: #7b77d2!important
+        @media (max-width: 1400px)
+            span
+                display: flex
+                flex-direction: column
+                padding: 0
+                margin: 0
+                text-align: center
+                i
+                    padding-top: 12px
+                    line-height: 8px
+        i
+            font-style: normal
+    .Logo
+        width: 40px
+        transform: rotate(-90deg)
+    .LogoText
+        font-weight: 700
+        font-size: 52px
+        color: #4556ac
+    .settings
+        font-size: 30px
+        width: 130px
+        // height: 10px
+    a
+        width: 130px
+        padding: 0 40px
